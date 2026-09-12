@@ -1,0 +1,7 @@
+# Keep host-built artifacts out of the image — a Windows/macOS node_modules
+# would overwrite the Linux one installed inside the container.
+node_modules
+dist
+.env
+.env.*
+*.local
